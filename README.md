@@ -1,2 +1,2 @@
 # MomentumJS
-Momentum JS CloneCoding 🖍
+Momentum JS CloneCoding vanillajs 🖍
