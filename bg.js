@@ -1,5 +1,5 @@
 const body = document.querySelector("body");
-const IMG_NUMBER = 6;
+const IMG_NUMBER = 3;
 
 function handleImgLoad(){
     console.log("finished load image");
@@ -14,7 +14,7 @@ function paintImage(imgNumber){
 }
 
 function genRandom(){
-    const number = Math.floor(Math.random()*6);
+    const number = Math.floor(Math.random()*3);
     return number;
 }
 
