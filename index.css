@@ -1,5 +1,6 @@
 body {
-    background-color: #304347;
+    color: white;
+    background-color: black;
 }
 
 .btn{
@@ -19,6 +20,25 @@ body {
     display: block;
 }
 
+.js-clock{
+    position: absolute;
+    font-size: 40px;
+    right: 38%;
+    top: 20%;
+}
+
+.js-greetings{
+    position: absolute;
+    right:46.5%;
+    top: 45%;
+}
+
+.js-toDoForm{
+    position: absolute;
+    right: 42.5%;
+    top: 55%;
+}
+
 @keyframes fadeIn{
     from{
         opacity: 0;
@@ -30,9 +50,10 @@ body {
 .bgImage{
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 10%;
+    width: 80%;
     height: 100%; 
     z-index: -1;
-    animation: fadeIn .5s linear;
+    animation: fadeIn 2s linear;
+    animation-iteration-count : infinite;
 }
