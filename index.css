@@ -3,8 +3,30 @@ body {
     background-color: black;
 }
 
+input {
+    width: 300px;
+    height: 30px;
+}
+
+input:focus {outline:none;} 
+
 .btn{
     cursor: pointer;
+}
+
+button{
+    background-color: rgba( 255, 255, 255, 0 );
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ol,ul
+{
+    list-style-type: none;
+    text-align: left;
 }
 
 .clicked{
@@ -21,22 +43,27 @@ body {
 }
 
 .js-clock{
-    position: absolute;
     font-size: 40px;
-    right: 38%;
-    top: 20%;
+    margin-top: 300px;
+    margin-left: 1000px;
 }
 
 .js-greetings{
-    position: absolute;
-    right:46.5%;
-    top: 45%;
+    margin-top: 35px;
+    margin-left: 1115px;
+    font-size: 25px;
 }
 
 .js-toDoForm{
-    position: absolute;
-    right: 42.5%;
-    top: 55%;
+    margin-left: 1000px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.js-todo-list{
+    margin-left: 980px;
+    margin-top: 20px;
+    font-size: 30px;
 }
 
 @keyframes fadeIn{
@@ -56,4 +83,13 @@ body {
     z-index: -1;
     animation: fadeIn 2s linear;
     animation-iteration-count : infinite;
+}
+
+
+/* 반응형 */
+@media screen and (max-width: 768px) { 
+    .bgImage
+    {
+        width: 768px;
+    }
 }
