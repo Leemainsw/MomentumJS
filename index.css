@@ -77,19 +77,9 @@ ol,ul
 .bgImage{
     position: absolute;
     top: 0;
-    right: 10%;
-    width: 80%;
+    left: 0;
+    width: 100%;
     height: 100%; 
     z-index: -1;
-    animation: fadeIn 2s linear;
-    animation-iteration-count : infinite;
-}
-
-
-/* 반응형 */
-@media screen and (max-width: 768px) { 
-    .bgImage
-    {
-        width: 768px;
-    }
+    animation: fadeIn .5s linear;
 }
